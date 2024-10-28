@@ -1,14 +1,21 @@
 # Exp 14-IMPLEMENT HASH FUNCTION CRYPTOGRAPHY
 ## AIM:
 To write a program to implement Hash Algorithm. 
-## ALGORITHM: 
+
+## ALGORITHM:
+
 STEP-1: Input the plaintext message and symmetric key. 
+
 STEP-2: Perform XOR encryption 
+
 STEP-3: HMAC calculation. 
+
 STEP-4: Display the encrypted message 
+
 STEP-5: Perform XOR decryption 
   
 STEP-6: Display the decrypted message 
+
 ## PROGRAM: 
 ```
 #include <stdio.h>
@@ -83,6 +90,7 @@ int main() {
     char decrypted[MAX_LEN];  // Decrypted message
 
     printf("\n **Simulation of HMAC Algorithm with Encryption and Decryption**\n\n");
+    printf("Gokularamanan k\n");
 
     // Get plaintext message from the user
     printf("Enter the plaintext message: ");
@@ -117,7 +125,8 @@ int main() {
 
 ```
 ## OUTPUT: 
-![Screenshot 2024-10-18 140232](https://github.com/user-attachments/assets/946c4e44-305d-4f1c-93ca-e7c53822aebc)
+![image](https://github.com/user-attachments/assets/2e04a0bc-1ad1-4a55-a0fc-dd1719afc3a4)
+
 
 
 ## RESULT: 
